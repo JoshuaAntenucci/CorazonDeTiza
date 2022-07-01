@@ -1,0 +1,118 @@
+$accent-color: #e68b30;
+$accent-dark-color: #9e5e20;
+$radius: 0.5rem;
+
+.contact {
+  &__background {
+    background: url("https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 75px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__form {
+    &-container {
+      background-color: rgba($color: #fff, $alpha: 0.85);
+      padding: 40px;
+    }
+
+    &-title {
+      font-size: 40px;
+      margin: 0;
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 25px;
+      border-bottom: 1px solid $accent-color;
+    }
+
+    &-input {
+      position: relative;
+      height: 30px;
+      margin: 30px 0;
+
+      input {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 2px solid #999;
+        border-radius: $radius;
+        outline: none;
+        padding: 5px 10px;
+        background-color: none;
+        margin-left: -10px;
+
+        &:hover {
+          border-color: $accent-color;
+        }
+
+        &:focus {
+          border-color: $accent-color;
+
+          & ~ label {
+            top: -12px;
+            font-size: 0.8rem;
+            color: $accent-color;
+          }
+        }
+
+        &:valid {
+          border-color: $accent-color;
+
+          & ~ label {
+            top: -12px;
+            font-size: 0.8rem;
+            color: $accent-color;
+          }
+        }
+      }
+
+      label {
+        position: absolute;
+        left: 5px;
+        top: 8px;
+        padding: 5px;
+        cursor: text;
+        color: #999;
+        transition: top 200ms ease-in, left 200ms ease-in,
+          font-size 200ms ease-in;
+        background-color: #fff;
+        border-radius: 10px;
+        pointer-events: none;
+      }
+    }
+
+    &-actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    &-btn {
+      background-color: $accent-color;
+      border: none;
+      padding: 15px 25px;
+      border-radius: 30px;
+      font-size: 15px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $accent-dark-color;
+      }
+
+      &-icon {
+        font-size: 20px;
+        margin-left: 10px;
+      }
+    }
+  }
+}
