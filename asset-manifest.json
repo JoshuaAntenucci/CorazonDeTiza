@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/JoshuaAntenucci.github.io/CorazonDeTiza/static/css/main.c0972bbc.css",
-    "main.js": "/JoshuaAntenucci.github.io/CorazonDeTiza/static/js/main.a3e40655.js",
-    "static/js/787.dd05b9b6.chunk.js": "/JoshuaAntenucci.github.io/CorazonDeTiza/static/js/787.dd05b9b6.chunk.js",
-    "index.html": "/JoshuaAntenucci.github.io/CorazonDeTiza/index.html",
-    "main.c0972bbc.css.map": "/JoshuaAntenucci.github.io/CorazonDeTiza/static/css/main.c0972bbc.css.map",
-    "main.a3e40655.js.map": "/JoshuaAntenucci.github.io/CorazonDeTiza/static/js/main.a3e40655.js.map",
-    "787.dd05b9b6.chunk.js.map": "/JoshuaAntenucci.github.io/CorazonDeTiza/static/js/787.dd05b9b6.chunk.js.map"
+    "main.css": "/CorazonDeTiza/static/css/main.c0972bbc.css",
+    "main.js": "/CorazonDeTiza/static/js/main.e1599cdc.js",
+    "static/js/787.dd05b9b6.chunk.js": "/CorazonDeTiza/static/js/787.dd05b9b6.chunk.js",
+    "index.html": "/CorazonDeTiza/index.html",
+    "main.c0972bbc.css.map": "/CorazonDeTiza/static/css/main.c0972bbc.css.map",
+    "main.e1599cdc.js.map": "/CorazonDeTiza/static/js/main.e1599cdc.js.map",
+    "787.dd05b9b6.chunk.js.map": "/CorazonDeTiza/static/js/787.dd05b9b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0972bbc.css",
-    "static/js/main.a3e40655.js"
+    "static/js/main.e1599cdc.js"
   ]
 }
