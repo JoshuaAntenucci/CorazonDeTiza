@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CorazonDeTiza/static/css/main.c0972bbc.css",
-    "main.js": "/CorazonDeTiza/static/js/main.e1599cdc.js",
-    "static/js/787.dd05b9b6.chunk.js": "/CorazonDeTiza/static/js/787.dd05b9b6.chunk.js",
+    "main.js": "/CorazonDeTiza/static/js/main.09b4754e.js",
+    "static/js/787.234fd2a4.chunk.js": "/CorazonDeTiza/static/js/787.234fd2a4.chunk.js",
     "index.html": "/CorazonDeTiza/index.html",
     "main.c0972bbc.css.map": "/CorazonDeTiza/static/css/main.c0972bbc.css.map",
-    "main.e1599cdc.js.map": "/CorazonDeTiza/static/js/main.e1599cdc.js.map",
-    "787.dd05b9b6.chunk.js.map": "/CorazonDeTiza/static/js/787.dd05b9b6.chunk.js.map"
+    "main.09b4754e.js.map": "/CorazonDeTiza/static/js/main.09b4754e.js.map",
+    "787.234fd2a4.chunk.js.map": "/CorazonDeTiza/static/js/787.234fd2a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0972bbc.css",
-    "static/js/main.e1599cdc.js"
+    "static/js/main.09b4754e.js"
   ]
 }
